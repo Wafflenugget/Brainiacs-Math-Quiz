@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>brainiac&#39;s math quiz </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+</head>
+<body>
+    <h1>Math Quiz</h1>
+    <label for="grade">Select Grade:</label>
+    <select id="grade">
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+    </select>
+    <button id="start-quiz">Start Quiz</button>
+
+    <div id="quiz-container" class="hidden">
+        <h2 style="color: green;">Math Quiz</h2>
+        <div id="quiz-questions"></div>
+        <button id="submit-quiz">Submit Quiz</button>
+    </div>
+
+    <div id="result" class="hidden">
+        <h2>Result:</h2>
+        <p id="result-summary"></p>
+      <p> Click explanation to see where you got it wrong!</p>
+        <button id="retry-quiz">Retry</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
